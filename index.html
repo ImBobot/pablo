@@ -399,20 +399,22 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="be983321-fcc9-4a9e-876f-20a8b278f94e">
+
                         <div class="contact__inputs">
                             <div class="contact__content">
-                                <input type="email" placeholder=" " class="contact__input">
+                                <input type="email" placeholder=" " class="contact__input" required>
                                 <label for="" class="contact__label">Email</label>
                             </div>
 
                             <div class="contact__content">
-                                <input type="text" placeholder=" " class="contact__input">
+                                <input type="text" placeholder=" " class="contact__input" required>
                                 <label for="" class="contact__label">Subject</label>
                             </div>
 
                             <div class="contact__content contact__area">
-                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <textarea name="message" placeholder=" " class="contact__input" required></textarea>                              
                                 <label for="" class="contact__label">Message</label>
                             </div>
                         </div>
@@ -492,7 +494,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; Don-Pablo. All rigths reserved</p>
+            <p class="footer__copy">&#169; 2025 Don-Pablo. All rights reserved</p>
         </footer>
         
         <!--=============== SCROLL UP ===============-->
